@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-24T07:32:02Z" name="Suite" finished-at="2021-09-24T07:32:03Z" duration-ms="487">
+    <groups>
+    </groups>
+    <test started-at="2021-09-24T07:32:02Z" name="Test" finished-at="2021-09-24T07:32:02Z" duration-ms="152">
+      <class name="TestNG_Practices.testngdemo">
+        <test-method signature="demo1()[pri:0, instance:TestNG_Practices.testngdemo@63eef88a]" started-at="2021-09-24T13:02:02Z" name="demo1" finished-at="2021-09-24T13:02:02Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method signature="demo2()[pri:0, instance:TestNG_Practices.testngdemo@63eef88a]" started-at="2021-09-24T13:02:02Z" name="demo2" finished-at="2021-09-24T13:02:02Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+      </class> <!-- TestNG_Practices.testngdemo -->
+    </test> <!-- Test -->
+    <test started-at="2021-09-24T07:32:02Z" name="Car Loan" finished-at="2021-09-24T07:32:03Z" duration-ms="18">
+      <class name="TestNG_Practices.carLoan">
+        <test-method signature="loginCarApi()[pri:0, instance:TestNG_Practices.carLoan@6e005dc9]" started-at="2021-09-24T13:02:03Z" name="loginCarApi" finished-at="2021-09-24T13:02:03Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCarApi -->
+        <test-method signature="webCarLogin()[pri:0, instance:TestNG_Practices.carLoan@6e005dc9]" started-at="2021-09-24T13:02:03Z" name="webCarLogin" finished-at="2021-09-24T13:02:03Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webCarLogin -->
+      </class> <!-- TestNG_Practices.carLoan -->
+    </test> <!-- Car Loan -->
+    <test started-at="2021-09-24T07:32:03Z" name="Home Loan" finished-at="2021-09-24T07:32:03Z" duration-ms="40">
+      <class name="TestNG_Practices.homeLoan">
+        <test-method signature="loginHomeApi()[pri:0, instance:TestNG_Practices.homeLoan@4397ad89]" started-at="2021-09-24T13:02:03Z" name="loginHomeApi" finished-at="2021-09-24T13:02:03Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginHomeApi -->
+        <test-method signature="mobileHomeLogin()[pri:0, instance:TestNG_Practices.homeLoan@4397ad89]" started-at="2021-09-24T13:02:03Z" name="mobileHomeLogin" finished-at="2021-09-24T13:02:03Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileHomeLogin -->
+        <test-method signature="webHomeLogin()[pri:0, instance:TestNG_Practices.homeLoan@4397ad89]" started-at="2021-09-24T13:02:03Z" name="webHomeLogin" finished-at="2021-09-24T13:02:03Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webHomeLogin -->
+      </class> <!-- TestNG_Practices.homeLoan -->
+    </test> <!-- Home Loan -->
+  </suite> <!-- Suite -->
+</testng-results>

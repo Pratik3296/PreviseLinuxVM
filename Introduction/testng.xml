@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+  <test thread-count="5" name="Test">
+  
+    <classes>
+      <class name="TestNG_Practices.testngdemo"/>
+    </classes>
+  </test> 
+  
+  
+  
+  <test name="Car Loan">
+  
+  <classes>
+  
+      <class name="TestNG_Practices.carLoan">
+      <methods>
+      
+      <exclude name = "mobileCarLogin"/>
+      
+     
+		      
+      </methods>
+    </class>
+  </classes>
+ </test>
+     
+   <test name="Home Loan">
+   
+  <classes>
+  
+      <class name="TestNG_Practices.homeLoan">
+      
+      <methods>
+      <include name = "loginCarApi"/>
+ </methods>
+ </class>
+    </classes>
+     </test>
+    
+  
+</suite> <!-- Suite -->

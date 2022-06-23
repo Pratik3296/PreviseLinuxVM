@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNG_Practices.testngdemo"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Car Loan">
+    <classes>
+      <class name="TestNG_Practices.carLoan">
+        <methods>
+          <exclude name="mobileCarLogin"/>
+        </methods>
+      </class> <!-- TestNG_Practices.carLoan -->
+    </classes>
+  </test> <!-- Car Loan -->
+  <test name="Home Loan">
+    <classes>
+      <class name="TestNG_Practices.homeLoan">
+        <methods>
+          <include name="loginCarApi"/>
+        </methods>
+      </class> <!-- TestNG_Practices.homeLoan -->
+    </classes>
+  </test> <!-- Home Loan -->
+</suite> <!-- Failed suite [Suite] -->
